@@ -1,0 +1,13 @@
+/* Text and background color for light mode */
+body {
+    color: #333;
+    background: #fff;
+  }
+  
+  /* Text and background color for dark mode */
+  @media (prefers-color-scheme: dark) {
+    body {
+      color: #ddd;
+      background: #222;
+    }
+  }
