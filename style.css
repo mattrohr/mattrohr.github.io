@@ -1,13 +1,13 @@
-/* Text and background color for light mode */
+/* Apply light mode styles for text and background colors */
 body {
   color: #333;
   background: #fff;
 }
 
-/* Text and background color for dark mode */
+/* Apply dark mode styles if the user's system preference is set to dark mode */
 @media (prefers-color-scheme: dark) {
   body {
-    color: #ddd;
-    background: #222;
+      color: #ddd;
+      background: #222;
   }
 }
