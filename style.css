@@ -7,7 +7,37 @@ body {
 /* Apply dark mode styles if the user's system preference is set to dark mode */
 @media (prefers-color-scheme: dark) {
   body {
-      color: #ddd;
-      background: #222;
+    color: #ddd;
+    background: #222;
   }
+}
+
+/* Center align the profile image */
+#profile {
+  width: 200px;
+  height: 200px;
+}
+
+/* Limit maximum width of outer container and center it */
+.container-outer {
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Apply padding to inner container */
+.container-inner {
+  padding: 0.5rem 1rem 3rem 1rem;
+}
+
+/* Use flexbox for flexible layout of parent container */
+.flex-parent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: -0.3rem;
+}
+
+/* Add margin to flexbox children */
+.flex-child {
+  margin: 0.3rem;
 }
