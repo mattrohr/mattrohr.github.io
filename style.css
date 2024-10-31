@@ -10,6 +10,13 @@ a {
   text-decoration: none;
 }
 
+/* Add underline to hyperlinks on hover */
+@media (hover: hover) and (pointer: fine) {
+  a:hover {
+      text-decoration: underline;
+  }
+}
+
 /* Apply dark mode styles if the user's system preference is set to dark mode */
 @media (prefers-color-scheme: dark) {
   body {
