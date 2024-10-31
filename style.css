@@ -4,11 +4,22 @@ body {
   background: #fff;
 }
 
+/* Set hyperlink color and remove underlines */
+a {
+  color: #29629e;
+  text-decoration: none;
+}
+
 /* Apply dark mode styles if the user's system preference is set to dark mode */
 @media (prefers-color-scheme: dark) {
   body {
-    color: #ddd;
-    background: #222;
+      color: #ddd;
+      background: #222;
+  }
+
+  /* Change hyperlink color in dark mode */
+  a {
+      color: rgb(137, 180, 195);
   }
 }
 
